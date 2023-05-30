@@ -24,9 +24,7 @@ function encriptador() {
     salida.textContent = temporal;
     salida.style.background = "#fff";
 }
-function copiar() {
-    /*-----Falta-------*/
-}
+
 function desencriptar() {
     let temporal = "";
     let texto = document.querySelector("#entrada").value;
@@ -54,6 +52,10 @@ function desencriptar() {
     }
     salida.textContent = temporal;
     salida.style.background = "#fff";
+}
+function copiar() {
+    navigator.clipboard.writeText(salida.textContent);
+
 }
 
 btnEncript.addEventListener("click", encriptador);
