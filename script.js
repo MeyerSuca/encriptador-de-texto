@@ -25,15 +25,7 @@ function encriptador() {
     salida.style.background = "#fff";
 }
 function copiar() {
-    /* let textoACopiar = document.querySelector("#salida-texto");
-    navigator.clipboard.writeText(textoACopiar.innerHTML); */
-    try {
-        // intentar copiar el contenido seleccionado
-        var resultado = document.execCommand('copy');
-        console.log(resultado ? 'Email copiado' : 'No se pudo copiar el email');
-    } catch (err) {
-        console.log('ERROR al intentar copiar el email');
-    }
+    /*-----Falta-------*/
 }
 function desencriptar() {
     let temporal = "";
@@ -43,7 +35,7 @@ function desencriptar() {
         if (texto[i] + texto[i + 1] == "ai") {
             temporal += "a";
             i += 2;
-        } else if (texto[i] + texto[i + 1] + texto[i + 2] + texto[i + 3] + texto[+4] == "enter") {
+        } else if (texto[i] + texto[i + 1] + texto[i + 2] + texto[i + 3] + texto[i + 4] == "enter") {
             temporal += "e";
             i += 5;
         } else if (texto[i] + texto[i + 1] + texto[i + 2] + texto[i + 3] == "imes") {
