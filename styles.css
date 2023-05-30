@@ -1,0 +1,90 @@
+/*----------Reseteadores-----------*/
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e5e5e5;
+}
+
+/*-----------Utilidades-----------*/
+.txt-center {
+    text-align: center;
+}
+
+/*---------------Hero-------------*/
+.hero {
+    height: calc(100vh - 10px);
+    padding: 10px 20px 0 20px;
+}
+
+/*-------------Header-------------*/
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+/*--------Cuadros de textos-------*/
+
+.cuadros-texto {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    margin: 20px 0;
+}
+
+.entrada {
+    width: 60%;
+}
+
+.salida {
+    width: 35%;
+}
+
+.entrada-texto {
+    background: #e5e5e5;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.salida-texto {
+    height: 100%;
+    width: 100%;
+    font-size: 1.3rem;
+    background: url(./img/bg-salida.png) #ffffff;
+}
+
+/*------------Botones------------*/
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button {
+    width: 150px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+.footer {
+    background-color: #313131;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: #fff;
+}
