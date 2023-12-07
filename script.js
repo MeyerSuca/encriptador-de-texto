@@ -20,7 +20,7 @@ function encriptador() {
         } else {
             temporal = temporal + i;
         }
-    }
+    } 10
     salida.textContent = temporal;
     salida.style.background = "#fff";
 }
